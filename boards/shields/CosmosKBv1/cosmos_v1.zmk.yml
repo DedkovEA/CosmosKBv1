@@ -1,0 +1,15 @@
+file_format: "1"
+id: cosmos_v1
+name: Cosmos_v1
+type: shield
+url: https://github.com/DedkovEA/CosmosKBv1
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  # - underglow
+  # - studio
+siblings:
+  - cosmos_v1_left
+  - cosmos_v1_right

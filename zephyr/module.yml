@@ -1,3 +1,5 @@
+name: zmk-keyboard-CosmosKBv1
+
 build:
   settings:
     board_root: .

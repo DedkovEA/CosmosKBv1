@@ -1,0 +1,31 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    behaviors {
+        apusc: apostrophe_underscore {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp APOSTROPHE>, <&kp UNDERSCORE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        comqmrk: comma_questionmark {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>, <&kp QMARK>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        mindqts: minus_doublequote {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp DOUBLE_QUOTES>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        slshlt: slash_lessthan {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH>, <&kp LESS_THAN>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+};

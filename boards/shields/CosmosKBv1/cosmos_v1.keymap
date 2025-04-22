@@ -27,7 +27,7 @@
    &kp LCTRL &kp N  &kp R  &kp T  &kp S  &kp G     &kp Y  &kp H  &kp A    &kp E    &kp I   &comqmrk
    &kp LSHFT &kp Q  &kp X  &kp M  &kp C  &kp V     &kp K  &kp P  &kp DOT  &mindqts &slshlt &kp ESC
                   &kp SPACE &kp BSPC &bt BT_CLR    &bt BT_PRV &kp DEL &kp RET
-                  &kp LGUI  &kp LALT &kp LCTRL     &kp RCTRL &kp RALT &kp RGUI
+                  &bootloader  &kp LALT &kp LCTRL     &kp RCTRL &kp RALT &kp RGUI
                         >;
    //                      bindings = <
    // &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
